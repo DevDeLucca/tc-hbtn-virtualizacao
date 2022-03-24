@@ -32,7 +32,7 @@
 O hipervisor tipo 2, tambem conhecido como hosted, e a execução de um sistema operãcional convencional
 como as camadas de softwares e aplicação, contain Server Manager
 
-- A VM roda sobre um Sistema operacional host, sendo assim pode se considerar um hypervisor tipo 2
+- A VM roda sobre um Sistema operacional host, sendo assim pode se considerar um hypervisor do tipo 2 
 
 
 -------------------------------------------------------------------------------------------------------
@@ -42,6 +42,6 @@ tipos apresentados no artigo.
 -------------------------------------------------------------------------------------------------------
 Em geral um hardware ja considerado defazado pelo tempo,se faz necessario upgrade, para apresentação 
 de melhor performance, em acordo com as necessidade de um novo servidor, sendo tabme necessario as 
-adequações necessarias em relação a Disco rigido, memoria RAM do tamanho da memoria RAM 
+adequações necessarias em relação a Disco rigido, memória RAM 
 e tambem do disco rigido
 
