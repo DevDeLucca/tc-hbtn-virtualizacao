@@ -6,7 +6,15 @@
 - Abra um console do PowerShell como Administrador.
 - Considerado como boa pratica executar o comando Windows Update, para verificação se a maquina esta atualizada
 - Execute o comando a seguir:
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+      Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+- Inicie o Server Manager do Windows Server 2008 R2
+- Roles e Add Roles
+- tela Before you Begin clique em Next
+- tela Select Server Role marque Hyper-V e clique em Next
+- Next
+- tela Create Virtual Networks Selecione o adaptador de rede que será usada para as máquinas virtuais e clique em Next
+- finalizando clique em Install
+- Sera necessario reiniciar a máquina. Clique em Close
 
 
 1 Abra a Criação Rápida do Hyper-V no menu iniciar
@@ -32,7 +40,7 @@ como as camadas de softwares e aplicação, contain Server Manager
 é de 2011, qual a configuração ideal para um servidor suportar três máquinas virtuais dos mesmos 
 tipos apresentados no artigo.
 -------------------------------------------------------------------------------------------------------
-Em geral um hardware ja considerado defazad pelo tempo,se faz necessario upgrade, para apresentação 
+Em geral um hardware ja considerado defazado pelo tempo,se faz necessario upgrade, para apresentação 
 de melhor performance, em acordo com as necessidade de um novo servidor, sendo tabme necessario as 
 adequações necessarias em relação a Disco rigido, memoria RAM do tamanho da memoria RAM 
 e tambem do disco rigido
